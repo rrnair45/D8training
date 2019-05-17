@@ -2,5 +2,93 @@ Rehan Repository
 https://github.com/rahulrehan/d8_training 
 
 Ravi Repository
+https://github.com/rrnair45/D8training.git
 
 Wekimedia plugin for merging composer
+
+
+
+sudo chown -R www-data:www-data sites/default   //installation issues with local user
+Interface transaltion (read more through internet)
+Virtual Box: 5.2.22
+
+Day 2
+Drupal Console (generate auto codes)
+
+OOPS
+namespace
+namespace with alias
+Composer with D8
+
+Composer parallel instals (Hirak/presti)
+
+
+migrating configuration from install from anothrt
+=============================================
+sudo chown -R training:training sites/default 
+drush si --db-url=mysql://root:admin@localhost/db_new --site-name="Drupal 8"
+
+
+
+
+drush cex to make config seting file
+
+drush cim to revert changes
+
+to copy configuration
+first copy sync file from source to destination
+sudo chown -R www-data:training sites/default/files/config_qc3-UFeFzHfn4Biqv1GZlL7pxVhObmYOZqfQB8MIBVv2xDB8iuUd7GIR5NsRRSn158btzWTIBQ/
+on old site
+drush cget system.site
+copy the uuid
+
+and on new site
+drush cset system.site uuid 5cfcf540-b81a-4f20-bd16-bf0942fc509e
+
+before that delete shortcut from new site
+now refresh  http://localhost/drupal-8/admin/config/development/configuration
+then
+drush cim 
+
+
+create own module
+=================
+
+enable it
+
+create new content type
+
+drush cex
+
+copy all content type file from sync to module/config/install
+
+and copy to new migra website and enable the module
+
+
+
+Acquire::http::proxy "http://rrnair:Dev147852@air-proxy-1-wcg.corp.capgemini.com:8080";
+Acquire::https::proxy "http://rrnair:Dev147852@air-proxy-1-wcg.corp.capgemini.com:8080";
+
+
+Form Building
+
+
+
+
+create service with database
+Check if service is enabled : db_custom.db_fetch
+
+ \Drupal::service('db_custom.db_fetch');
+
+ $service = \Drupal::service('db_custom.db_fetch');
+ $service->read();
+ $service->write("Ravi");
+
+
+
+
+
+
+
+
+
