@@ -1,0 +1,11 @@
+uuid: fafc59e3-93bb-487b-8af2-266933d7c6b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.deploy_demo
+id: node.deploy_demo
+target_entity_type_id: node
+target_bundle: deploy_demo
+default_langcode: site_default
+language_alterable: false

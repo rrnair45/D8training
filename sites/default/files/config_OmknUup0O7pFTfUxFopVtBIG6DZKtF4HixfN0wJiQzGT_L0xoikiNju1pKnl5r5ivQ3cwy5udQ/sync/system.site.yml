@@ -1,0 +1,14 @@
+uuid: 5cfcf540-b81a-4f20-bd16-bf0942fc509e
+name: 'drupal 8.7.1'
+mail: r-ravi.nair@capgemini.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

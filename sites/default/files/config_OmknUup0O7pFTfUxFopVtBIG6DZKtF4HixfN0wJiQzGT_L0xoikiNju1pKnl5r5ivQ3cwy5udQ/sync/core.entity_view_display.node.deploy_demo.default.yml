@@ -1,0 +1,38 @@
+uuid: 38d3b305-1c5d-4059-b94c-840b7c9e12cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.deploy_demo.body
+    - field.field.node.deploy_demo.field_first
+    - node.type.deploy_demo
+  module:
+    - options
+    - text
+    - user
+id: node.deploy_demo.default
+targetEntityType: node
+bundle: deploy_demo
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_first:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

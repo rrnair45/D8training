@@ -1,0 +1,14 @@
+uuid: 5423cbfd-00aa-4e6f-a789-8cdeda2806ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.transalator
+  module:
+    - user
+id: user_remove_role_action.transalator
+label: 'Remove the Transalator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: transalator

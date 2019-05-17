@@ -1,0 +1,29 @@
+uuid: 7b876465-66cb-4667-ba6e-a1bff80d64cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_interest
+    - node.type.product
+    - taxonomy.vocabulary.vocab_book
+id: node.product.field_interest
+field_name: field_interest
+entity_type: node
+bundle: product
+label: Interest
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      vocab_book: vocab_book
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

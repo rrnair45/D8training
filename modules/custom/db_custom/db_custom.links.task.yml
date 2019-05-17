@@ -1,0 +1,10 @@
+db_custom.static-content_tab:
+  route_name: db_custom.static-content
+  title: 'Static one'
+  base_route: db_custom.static-content
+db_custom.static-content_tab_two:
+  route_name: db_custom.static-content_two
+  title: 'Static Two'
+  base_route: db_custom.static-content
+
+  

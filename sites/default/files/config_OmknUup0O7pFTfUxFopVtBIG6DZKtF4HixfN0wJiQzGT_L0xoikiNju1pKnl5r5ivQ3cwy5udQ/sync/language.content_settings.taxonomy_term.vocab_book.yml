@@ -1,0 +1,18 @@
+uuid: 14798c9e-be22-4926-8e0b-78d5fe56f124
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.vocab_book
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.vocab_book
+target_entity_type_id: taxonomy_term
+target_bundle: vocab_book
+default_langcode: site_default
+language_alterable: true

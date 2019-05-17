@@ -1,0 +1,10 @@
+label: Adevntiria
+display:
+  default:
+    display_options:
+      title: Adevnture
+  page_1:
+    display_options:
+      menu:
+        title: adventure
+    display_title: adventure

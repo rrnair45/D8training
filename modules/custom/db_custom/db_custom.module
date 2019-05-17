@@ -1,0 +1,16 @@
+<?php 
+function db_custom_theme(){
+	return [
+		'weather_info'	=> [			
+				'variables' => [
+						'temp' => NULL,
+						'pressure' => NULL,
+						'humidity' => NULL,
+						'temp_min' => NULL,
+						'temp_max' => NULL,
+				],
+		],
+			
+	];
+}
+?>

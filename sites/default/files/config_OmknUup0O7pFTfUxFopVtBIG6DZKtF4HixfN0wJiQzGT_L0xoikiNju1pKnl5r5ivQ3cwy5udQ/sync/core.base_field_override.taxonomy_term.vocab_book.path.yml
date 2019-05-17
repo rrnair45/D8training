@@ -1,0 +1,20 @@
+uuid: 6fed2890-4b5f-4805-8973-2951d5d812fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.vocab_book
+  module:
+    - path
+id: taxonomy_term.vocab_book.path
+field_name: path
+entity_type: taxonomy_term
+bundle: vocab_book
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,54 @@
+db_custom.static-content:
+  path: '/static-content'
+  defaults:
+    _controller: '\Drupal\db_custom\Controller\WelcomeController::print_welcome'
+    _title: 'D8 Custom Module'
+  requirements:
+    _permission: 'access training content'
+
+db_custom.static-content_two:
+  path: '/static-content-two'
+  defaults:
+    _controller: '\Drupal\db_custom\Controller\WelcomeController::print_welcome_two'
+    _title: 'D8 Custom Module two'
+  requirements:
+    _permission: 'access content'
+    
+db_custom.static-content_witharg:
+  path: '/module-with-arg/{name}'
+  defaults:
+    _controller: '\Drupal\db_custom\Controller\WelcomeController::print_welcome_with_arg'
+    _title: 'D8 Custom Module'
+    name: 1
+  requirements:
+    _permission: 'access content'
+    
+
+       
+db_custom.static-content_with_node_custom access:
+  path: '/module-with-node/{node}'
+  defaults:
+    _controller: '\Drupal\db_custom\Controller\WelcomeController::print_welcome_with_node'
+    _title: 'D8 Custom Module with node'
+    node: 1
+  requirements:
+#    _permission: 'access content'
+#    _custom_access: '\Drupal\db_custom\Controller\WelcomeController::entity_access_check'
+    _db_entity_check: 'TRUE' 
+    
+db_custom.static-form:
+  path: '/static-form'
+  defaults:
+    _form: '\Drupal\db_custom\Form\DBForm'
+    _title: 'D8 Custom Module Form'
+  requirements:
+    _permission: 'access content' 
+    
+db_custom.config_route:
+  path: '/admin/weather-config'
+  defaults:
+   _form: '\Drupal\db_custom\Form\ConfigForm'
+   _title: 'Config Form'
+  requirements:
+    _permission: 'access content'
+    

@@ -1,0 +1,11 @@
+.weather_list {
+    display: block;
+     font-size: 15px;
+    font-family: sans-serif;
+    
+}
+
+span.weather_list b {
+    margin-right: 6px;
+    color: #2872a0;
+}

@@ -1,0 +1,21 @@
+uuid: 9ea59528-d18a-46d4-a2b6-8893f1d26564
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_first
+    - node.type.deploy_demo
+  module:
+    - options
+id: node.deploy_demo.field_first
+field_name: field_first
+entity_type: node
+bundle: deploy_demo
+label: first
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,14 @@
+uuid: ea52fb55-70c8-4b3c-be01-8874a76dff6e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.transalator
+  module:
+    - user
+id: user_add_role_action.transalator
+label: 'Add the Transalator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: transalator

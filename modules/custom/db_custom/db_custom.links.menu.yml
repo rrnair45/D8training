@@ -1,0 +1,5 @@
+db_custom.admin:
+  title: Db Custom module
+  description: 'Manage your Custom Module outlines.'
+  parent: system.admin_config_system
+  route_name: db_custom.static-content

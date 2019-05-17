@@ -1,0 +1,6 @@
+weather-widget:
+  css:
+    component:
+      css/style.css : {} 
+  js:
+    js/scripts.js : {}

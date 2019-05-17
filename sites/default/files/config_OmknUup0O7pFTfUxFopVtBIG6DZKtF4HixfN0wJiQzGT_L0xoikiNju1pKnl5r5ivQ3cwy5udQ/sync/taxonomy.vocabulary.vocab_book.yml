@@ -1,0 +1,8 @@
+uuid: 17ac39ed-4f03-4e35-b33d-5467cd07e7a5
+langcode: en
+status: true
+dependencies: {  }
+name: Interest
+vid: vocab_book
+description: ''
+weight: 0

@@ -1,0 +1,20 @@
+services:
+  db_custom.entity_access_check:  
+    class: '\Drupal\db_custom\Access\D8EntityAccessCheck'
+    tags: 
+     -  {name: 'access_check', applies_to: '_db_entity_check' }
+     
+  db_custom.db_fetch:  
+    class: '\Drupal\db_custom\DBFetch'
+    arguments: ['@database']
+    
+    
+  db_custom.weather_api:  
+    class: '\Drupal\db_custom\WeatherApiService'
+    arguments: ['@http_client','@config.factory']
+
+    
+  db_custom.event_subscirber_one:  
+    class: '\Drupal\db_custom\EventSubscriber\DBEventService'
+    tags: 
+     -  {name: 'event_subscriber'}
