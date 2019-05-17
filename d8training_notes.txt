@@ -4,6 +4,11 @@ https://github.com/rahulrehan/d8_training
 Ravi Repository
 https://github.com/rrnair45/D8training.git
 
+
+
+http://training.qed42.net/training-17.zip (Virtual Machine Download link)
+http://training.qed42.net/activity-list (Activity list)
+
 Wekimedia plugin for merging composer
 
 
