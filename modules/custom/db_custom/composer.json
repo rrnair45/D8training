@@ -1,0 +1,10 @@
+{
+    "name": "training/db_custom",
+    "authors": [
+        {
+            "name": "Ravi Nair",
+            "email": "testrvnight@gmail.com"
+        }
+    ],
+    "require": {}
+}

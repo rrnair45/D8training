@@ -13,8 +13,7 @@ services:
     class: '\Drupal\db_custom\WeatherApiService'
     arguments: ['@http_client','@config.factory']
 
-    
-  db_custom.event_subscirber_one:  
-    class: '\Drupal\db_custom\EventSubscriber\DBEventService'
-    tags: 
-     -  {name: 'event_subscriber'}
+      
+  db_custom.new_block_cache:  
+    class: '\Drupal\db_custom\NewBlockService'
+    arguments: ['@database']
